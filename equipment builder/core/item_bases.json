@@ -1,0 +1,47 @@
+{
+  "HELMET": [
+    { "name": "铁制头盔", "base_stats": { "ARMOR": 20 }, "required_level": 1, "icon_path": "iron_helmet.png" },
+    { "name": "皮制头巾", "base_stats": { "EVASION": 20 }, "required_level": 1, "icon_path": "leather_hood.png" },
+    { "name": "羊毛兜帽", "base_stats": { "ENERGY_SHIELD": 10 }, "required_level": 1, "icon_path": "wool_hood.png" },
+    { "name": "巨盔", "base_stats": { "ARMOR": 120 }, "required_level": 25, "icon_path": "great_helmet.png" },
+    { "name": "梦魇战盔", "base_stats": { "ARMOR": 250, "CHAOS_RESISTANCE": 10 }, "required_level": 50, "icon_path": "nightmare_bascinet.png" }
+  ],
+  "BODY_ARMOR": [
+    { "name": "板甲", "base_stats": { "ARMOR": 50, "MOVEMENT_SPEED": -5 }, "required_level": 5, "icon_path": "plate_vest.png" },
+    { "name": "镶钉皮甲", "base_stats": { "ARMOR": 30, "EVASION": 30 }, "required_level": 5, "icon_path": "studded_leather.png" },
+    { "name": "丝绸之袍", "base_stats": { "ENERGY_SHIELD": 25 }, "required_level": 5, "icon_path": "silk_robe.png" },
+    { "name": "荣耀之铠", "base_stats": { "ARMOR": 400, "MOVEMENT_SPEED": -10 }, "required_level": 45, "icon_path": "glorious_plate.png" },
+    { "name": "星辰皮甲", "base_stats": { "EVASION": 350 }, "required_level": 45, "icon_path": "astral_plate.png" },
+    { "name": "瓦尔法衣", "base_stats": { "ENERGY_SHIELD": 150 }, "required_level": 45, "icon_path": "vaal_regalia.png" }
+  ],
+  "GLOVES": [
+    { "name": "铁制拳套", "base_stats": { "ARMOR": 15 }, "required_level": 3, "icon_path": "iron_gauntlets.png" },
+    { "name": "皮手套", "base_stats": { "EVASION": 15 }, "required_level": 3, "icon_path": "leather_gloves.png" },
+    { "name": "羊毛手套", "base_stats": { "ENERGY_SHIELD": 8 }, "required_level": 3, "icon_path": "woolen_gloves.png" }
+  ],
+  "BOOTS": [
+    { "name": "铁制胫甲", "base_stats": { "ARMOR": 15, "MOVEMENT_SPEED": -5 }, "required_level": 5, "icon_path": "iron_greaves.png" },
+    { "name": "皮质长靴", "base_stats": { "EVASION": 15 }, "required_level": 5, "icon_path": "leather_boots.png" },
+    { "name": "羊毛长靴", "base_stats": { "ENERGY_SHIELD": 8 }, "required_level": 5, "icon_path": "woolen_boots.png" },
+    { "name": "巨人胫甲", "base_stats": { "ARMOR": 200, "MOVEMENT_SPEED": -8 }, "required_level": 48, "icon_path": "goliath_greaves.png" },
+    { "name": "疾风之靴", "base_stats": { "EVASION": 180 }, "required_level": 48, "icon_path": "slink_boots.png" }
+  ],
+  "WEAPON": [
+    { "name": "锈蚀的剑", "base_stats": { "CRITICAL_STRIKE_CHANCE": 5.0 }, "required_level": 1, "icon_path": "rusty_sword.png" },
+    { "name": "学徒法杖", "base_stats": { "CAST_SPEED": 1.1 }, "required_level": 1, "icon_path": "apprentice_wand.png" },
+    { "name": "巨斧", "base_stats": { "ATTACK_SPEED": 0.8 }, "required_level": 10, "icon_path": "greate_axe.png" },
+    { "name": "帝国短弓", "base_stats": { "CRITICAL_STRIKE_CHANCE": 6.5 }, "required_level": 40, "icon_path": "imperial_bow.png" }
+  ],
+  "BELT": [
+    { "name": "皮带", "base_stats": { "HEALTH": 20 }, "required_level": 8, "icon_path": "leather_belt.png" },
+    { "name": "重革腰带", "base_stats": { "STRENGTH": 15 }, "required_level": 20, "icon_path": "heavy_belt.png" }
+  ],
+  "RING1": [
+    { "name": "珊瑚戒指", "base_stats": { "HEALTH": 15 }, "required_level": 1, "icon_path": "coral_ring.png" },
+    { "name": "铁戒指", "base_stats": { "FLAT_PHYSICAL_DAMAGE_TO_ATTACKS": 3 }, "required_level": 1, "icon_path": "iron_ring.png" }
+  ],
+  "AMULET": [
+    { "name": "翠玉护身符", "base_stats": { "DEXTERITY": 10 }, "required_level": 5, "icon_path": "jade_amulet.png" },
+    { "name": "玛瑙护身符", "base_stats": { "STRENGTH": 5, "DEXTERITY": 5, "INTELLIGENCE": 5 }, "required_level": 15, "icon_path": "onyx_amulet.png" }
+  ]
+}

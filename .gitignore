@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# .NET build output
+bin/
+obj/
+
+# IDE/user-local files
+.idea/
+.vs/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary logs/files
+*.log
+*.tmp

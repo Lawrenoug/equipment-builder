@@ -1,0 +1,89 @@
+{
+  "prefix": [
+    { "name": "健康的(T8)", "stat": "HEALTH", "min": 10, "max": 19 },
+    { "name": "健壮的(T7)", "stat": "HEALTH", "min": 20, "max": 29 },
+    { "name": "强健的(T6)", "stat": "HEALTH", "min": 30, "max": 39 },
+    { "name": "充满活力的(T5)", "stat": "HEALTH", "min": 40, "max": 49 },
+    { "name": "活血的(T4)", "stat": "HEALTH", "min": 50, "max": 59 },
+    { "name": "精力充沛的(T3)", "stat": "HEALTH", "min": 60, "max": 69 },
+    { "name": "运动员的(T2)", "stat": "HEALTH", "min": 70, "max": 79 },
+    { "name": "巨人的(T1)", "stat": "HEALTH", "min": 80, "max": 89 },
+
+    { "name": "闪亮的(T5)", "stat": "MANA", "min": 10, "max": 19 },
+    { "name": "法力的(T4)", "stat": "MANA", "min": 20, "max": 29 },
+    { "name": "巫师的(T3)", "stat": "MANA", "min": 30, "max": 39 },
+
+    { "name": "镀铜的(T6)", "stat": "ARMOR", "min": 20, "max": 40 },
+    { "name": "铁制的(T5)", "stat": "ARMOR", "min": 41, "max": 80 },
+    { "name": "钢制的(T4)", "stat": "ARMOR", "min": 81, "max": 120 },
+    { "name": "强固的(T3)", "stat": "ARMOR", "min": 121, "max": 160 },
+    { "name": "坚不可摧的(T1)", "stat": "ARMOR", "min": 200, "max": 250 },
+
+    { "name": "灵巧的(T6)", "stat": "EVASION", "min": 20, "max": 40 },
+    { "name": "敏捷的(T5)", "stat": "EVASION", "min": 41, "max": 80 },
+    { "name": "飞行的(T3)", "stat": "EVASION", "min": 121, "max": 160 },
+    { "name": "幻影的(T1)", "stat": "EVASION", "min": 200, "max": 250 },
+
+    { "name": "守护的(T6)", "stat": "ENERGY_SHIELD", "min": 10, "max": 20 },
+    { "name": "法师的(T4)", "stat": "ENERGY_SHIELD", "min": 31, "max": 50 },
+    { "name": "精粹的(T2)", "stat": "ENERGY_SHIELD", "min": 71, "max": 100 },
+
+    { "name": "锋利的(T6)", "stat": "FLAT_PHYSICAL_DAMAGE_TO_ATTACKS", "min": 1, "max": 3 },
+    { "name": "磨利的(T4)", "stat": "FLAT_PHYSICAL_DAMAGE_TO_ATTACKS", "min": 5, "max": 8 },
+    { "name": "无情的(T2)", "stat": "FLAT_PHYSICAL_DAMAGE_TO_ATTACKS", "min": 12, "max": 18 },
+
+    { "name": "燃烧的(T6)", "stat": "FLAT_FIRE_DAMAGE_TO_ATTACKS", "min": 2, "max": 5 },
+    { "name": "灼热的(T4)", "stat": "FLAT_FIRE_DAMAGE_TO_ATTACKS", "min": 8, "max": 12 },
+    { "name": "焚烧的(T2)", "stat": "FLAT_FIRE_DAMAGE_TO_ATTACKS", "min": 15, "max": 22 },
+
+    { "name": "轻快的(T3)", "stat": "MOVEMENT_SPEED", "min": 10, "max": 15 },
+    { "name": "加速的(T2)", "stat": "MOVEMENT_SPEED", "min": 16, "max": 20 },
+    { "name": "风行的(T1)", "stat": "MOVEMENT_SPEED", "min": 25, "max": 30 }
+  ],
+  "suffix": [
+    { "name": "之力量(T6)", "stat": "STRENGTH", "min": 8, "max": 12 },
+    { "name": "之巨力(T4)", "stat": "STRENGTH", "min": 20, "max": 28 },
+    { "name": "之泰坦(T2)", "stat": "STRENGTH", "min": 36, "max": 45 },
+
+    { "name": "之敏捷(T6)", "stat": "DEXTERITY", "min": 8, "max": 12 },
+    { "name": "之灵巧(T4)", "stat": "DEXTERITY", "min": 20, "max": 28 },
+    { "name": "之幻影(T2)", "stat": "DEXTERITY", "min": 36, "max": 45 },
+
+    { "name": "之智慧(T6)", "stat": "INTELLIGENCE", "min": 8, "max": 12 },
+    { "name": "之才智(T4)", "stat": "INTELLIGENCE", "min": 20, "max": 28 },
+    { "name": "之先知(T2)", "stat": "INTELLIGENCE", "min": 36, "max": 45 },
+
+    { "name": "之火焰抗性(T6)", "stat": "FIRE_RESISTANCE", "min": 12, "max": 17 },
+    { "name": "之火焰抗性(T4)", "stat": "FIRE_RESISTANCE", "min": 24, "max": 29 },
+    { "name": "之火焰抗性(T2)", "stat": "FIRE_RESISTANCE", "min": 36, "max": 41 },
+    { "name": "之火焰抗性(T1)", "stat": "FIRE_RESISTANCE", "min": 42, "max": 48 },
+
+    { "name": "之冰霜抗性(T6)", "stat": "COLD_RESISTANCE", "min": 12, "max": 17 },
+    { "name": "之冰霜抗性(T4)", "stat": "COLD_RESISTANCE", "min": 24, "max": 29 },
+    { "name": "之冰霜抗性(T2)", "stat": "COLD_RESISTANCE", "min": 36, "max": 41 },
+    { "name": "之冰霜抗性(T1)", "stat": "COLD_RESISTANCE", "min": 42, "max": 48 },
+
+    { "name": "之闪电抗性(T6)", "stat": "LIGHTNING_RESISTANCE", "min": 12, "max": 17 },
+    { "name": "之闪电抗性(T4)", "stat": "LIGHTNING_RESISTANCE", "min": 24, "max": 29 },
+    { "name": "之闪电抗性(T2)", "stat": "LIGHTNING_RESISTANCE", "min": 36, "max": 41 },
+    { "name": "之闪电抗性(T1)", "stat": "LIGHTNING_RESISTANCE", "min": 42, "max": 48 },
+
+    { "name": "之混沌抗性(T5)", "stat": "CHAOS_RESISTANCE", "min": 8, "max": 13 },
+    { "name": "之混沌抗性(T3)", "stat": "CHAOS_RESISTANCE", "min": 20, "max": 25 },
+    { "name": "之混沌抗性(T1)", "stat": "CHAOS_RESISTANCE", "min": 31, "max": 35 },
+
+    { "name": "之迅捷(T4)", "stat": "ATTACK_SPEED", "min": 5, "max": 7 },
+    { "name": "之名誉(T2)", "stat": "ATTACK_SPEED", "min": 10, "max": 12 },
+    { "name": "之狂怒(T1)", "stat": "ATTACK_SPEED", "min": 13, "max": 16 },
+
+    { "name": "之施法(T4)", "stat": "CAST_SPEED", "min": 4, "max": 6 },
+    { "name": "之虔诚(T2)", "stat": "CAST_SPEED", "min": 9, "max": 11 },
+    { "name": "之狂热(T1)", "stat": "CAST_SPEED", "min": 12, "max": 14 },
+
+    { "name": "之致命(T4)", "stat": "CRITICAL_STRIKE_CHANCE", "min": 15, "max": 20 },
+    { "name": "之刺杀(T2)", "stat": "CRITICAL_STRIKE_CHANCE", "min": 26, "max": 30 },
+
+    { "name": "之毁灭(T4)", "stat": "CRITICAL_STRIKE_MULTIPLIER", "min": 15, "max": 20 },
+    { "name": "之破坏(T2)", "stat": "CRITICAL_STRIKE_MULTIPLIER", "min": 26, "max": 32 }
+  ]
+}
